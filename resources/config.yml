@@ -1,0 +1,13 @@
+console: "§cThis command can be executed only by player!"
+
+do:
+  radius: "server"
+  format: "§7* §r{player}: {do}"
+  empty: "§cInput action!"
+
+try:
+  radius: 10
+  success: "§7* §r{player}: {try} §7[§aSuccess§7]"
+  fail: "§7* §r{player}: {try} §7[§cFail§7]"
+  empty: "§cInput action!"
+  chance: 50

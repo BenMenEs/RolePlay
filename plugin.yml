@@ -1,0 +1,13 @@
+name: RolePlay
+version: 1.0.0
+main: BenMenEs\RolePlay\Main
+api: 3.0.0
+
+website: github.com/BenMenEs
+author: BenMenEs
+
+permissions:
+  try.cmd:
+    default: true
+  do.cmd:
+    default: true
